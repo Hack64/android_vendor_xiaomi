@@ -2028,14 +2028,14 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libmegface",
+	name: "libmegface_vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
 	},
 	target: {
 		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libmegface.so"],
+			srcs: ["proprietary/vendor/lib64/libmegface_vendor.so"],
 		},
 	},
 	compile_multilib: "64",
@@ -2181,14 +2181,14 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libmpbase",
+	name: "libmpbase_vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
 	},
 	target: {
 		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libmpbase.so"],
+			srcs: ["proprietary/vendor/lib64/libmpbase_vendor.so"],
 		},
 	},
 	compile_multilib: "64",
